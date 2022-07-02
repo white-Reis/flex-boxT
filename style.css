@@ -1,0 +1,83 @@
+h1 {
+    color: white;
+    width: auto;
+    margin: auto;
+    background:black;
+    padding: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+ul {
+    position: absolute;
+    top: 16px;
+    right: 0;
+}
+li {
+    display: inline-block;
+    margin: 0px 16px 0 10px;
+}
+li a {
+    font-size: 1em;
+    color: white;
+   text-decoration: none; 
+   text-transform: uppercase;
+}
+li a:hover {
+    color: orangered;
+}
+section {
+    height: 35em;
+}
+.row-div {
+    justify-content: space-evenly;
+    display: flex;
+}
+.colum-div {
+    height: 1100px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.reverse-colum-div {
+    height: 1100px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.reverse-row-div {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row-reverse ;  
+}
+div{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    background: rgb(248, 244, 0);
+    margin: 2rem 0 2rem 0;
+}
+div p {
+    margin-top: 5px;
+}
+    div img {
+    width: 150px;
+    height: 100px;
+    margin: 20px;
+}
+footer{
+    text-align: center;
+    background: black;
+    width: auto;
+    height: 30px;
+   background:black;
+}
+.logo-compass {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.logo-compass img {
+    width: 150px;
+    height: 50px;
+    background: white;
+}
